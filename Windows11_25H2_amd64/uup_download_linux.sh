@@ -1,5 +1,5 @@
 #!/bin/bash
-#Generated on 2026-09-09 11:00:27 GMT
+#Generated on 2026-09-13 05:42:36 GMT
 
 # Proxy configuration
 # If you need to configure a proxy to be able to connect to the internet,
@@ -47,7 +47,7 @@ fi
 
 echo ""
 echo "Retrieving aria2 script for the UUP set..."
-aria2c --no-conf --console-log-level=warn --log-level=info --log="aria2_download.log" -o"$tempScript" --allow-overwrite=true --auto-file-renaming=false "https://uupdump.net/get.php?id=dd0767c2-7117-410a-a599-71f794ea0b12&pack=zh-cn&edition=professional&aria2=2"
+aria2c --no-conf --console-log-level=warn --log-level=info --log="aria2_download.log" -o"$tempScript" --allow-overwrite=true --auto-file-renaming=false "https://uupdump.net/get.php?id=b0605a8c-92ae-456c-b47c-81d48eae5f47&pack=zh-cn&edition=professional&aria2=2"
 if [ $? != 0 ]; then
   echo "Failed to retrieve aria2 script"
   exit 1
